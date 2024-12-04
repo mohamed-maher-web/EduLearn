@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educational Platform</title>
+    <link rel="stylesheet" href="./css/my.css">
+    
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1 class="logo">EduLearn</h1>
+            <nav>
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#">Courses</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#course1">Web Development</a></li>
+                            <li><a href="#course2">Data Science</a></li>
+                            <li><a href="#course3">Graphic Design</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li class="dropdown">
+                        <a href="#">Login</a>
+                        <div class="dropdown-menu login-form">
+                            <input type="text" placeholder="Username" id="username">
+                            <input type="password" placeholder="Password" id="password">
+                            <button onclick="login()">Login</button>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero">
+        <h2>Empower Your Knowledge</h2>
+        <p>Join thousands of learners on their journey to success.</p>
+        <a href="#" class="btn btn-primary">Browse Courses</a>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="container">
+        <h3>Why Choose Us?</h3>
+        <div class="features-grid">
+            <div class="feature-item">
+                <h4>Expert Instructors</h4>
+                <p>Learn from industry leaders and certified experts.</p>
+            </div>
+            <div class="feature-item">
+                <h4>Flexible Learning</h4>
+                <p>Access courses anytime, anywhere at your own pace.</p>
+            </div>
+            <div class="feature-item">
+                <h4>Certified Courses</h4>
+                <p>Earn certificates to showcase your achievements.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Courses -->
+    <section id="courses" class="container">
+        <h3>Popular Courses</h3>
+        <div class="courses-grid">
+            <div class="course-item">
+                <img src="./img/web.jpg" alt="Course 1">
+                <h4>Web Development</h4>
+                <p>Build responsive websites with HTML, CSS, and JavaScript.</p>
+                <a href="#" class="btn btn-secondary">View Details</a>
+            </div>
+            <div class="course-item">
+                <img src="./img/data.jpg" alt="Course 2">
+                <h4>Data Science</h4>
+                <p>Master Python, Machine Learning, and Data Analysis.</p>
+                <a href="#" class="btn btn-secondary">View Details</a>
+            </div>
+            <div class="course-item">
+                <img src="./img/gh.jpg" alt="Course 3">
+                <h4>Graphic Design</h4>
+                <p>Create stunning visuals and design professional graphics.</p>
+                <a href="#" class="btn btn-secondary">View Details</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 EduLearn. All Rights Reserved.</p>
+        <div class="social-links">
+            <a href="#">Facebook</a> | <a href="#">Twitter</a> | <a href="#">Instagram</a>
+        </div>
+    </footer>
+</body>
+
+</html>
