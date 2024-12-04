@@ -220,6 +220,7 @@ header nav ul li a:hover {
 .course-item img {
     border-radius: 5px;
     margin-bottom: 10px;
+    wight: 200px;
 }
 
 .course-item:hover {
